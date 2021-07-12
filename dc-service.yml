@@ -10,6 +10,6 @@ spec:
   ports:
     - port: 80
       targetPort: 80
-      nodePort: 11080
+      #nodePort: 11080
   selector:
     app: dc
