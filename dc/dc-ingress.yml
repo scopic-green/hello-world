@@ -8,7 +8,7 @@ metadata:
     alb.ingress.kubernetes.io/target-group-attributes: stickiness.enabled=true,stickiness.lb_cookie.duration_seconds=86400
     alb.ingress.kubernetes.io/target-type: ip
     alb.ingress.kubernetes.io/group.order: '90'
-    alb.ingress.kubernetes.io/healthcheck-interval-seconds: 30
+    alb.ingress.kubernetes.io/healthcheck-interval-seconds: '30'
 spec:
   rules:
   - host: "dc.prod.xxx.mexos.com"
