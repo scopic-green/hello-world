@@ -22,5 +22,5 @@ spec:
           service:
             name: xxx-dc
             port:
-              name: use-annotation
-            #number: 80
+                    #  name: use-annotation
+             number: 80
